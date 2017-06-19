@@ -11936,9 +11936,9 @@ Standard deviation of prices: $165,171.13
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer: </strong>
-"RM": an increase in the value would lead to an increase in the value of 'MEDV'
-"LSTAT": an increase in the value would lead to an decrease in the value of 'MEDV'
-"PTRATIO": an increase in the value would lead to an decrease in the value of 'MEDV'</p>
+"RM": an increase in the value would lead to an increase in the value of 'MEDV'. Larger "RM" means it might be a bigger house with higher price.</p>
+<p>"LSTAT": an increase in the value would lead to an decrease in the value of 'MEDV'. Comunity and neighbours are important factors for buyers. Low "LSTAT" is associated with low income community and lower house price.</p>
+<p>"PTRATIO": an increase in the value would lead to an decrease in the value of 'MEDV'. High "PTRATIO" shows lower income community.</p>
 
 </div>
 </div>
@@ -13752,7 +13752,7 @@ I will choose maximum depth = 4. Because when maximum depth = 4, the training cu
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer: </strong>
-Grid search is an exhaustive searching through a manually specified subset of the hyperparameter space of a learning algorithm, in order to perform hypermeter optimazation. To optimize a learning algorithm, we can compare the learning curves of all possible parameter values and choose the optimal one.</p>
+Grid search is an exhaustive searching through a manually specified subset of the hyperparameter space of a learning algorithm, in order to perform hypermeter optimazation. Grid search uses all the possible combinations of parameter values and these combinations are evaluated, then the optimal one is chosen on the highest cross-validation accuracy.</p>
 
 </div>
 </div>
@@ -14015,18 +14015,30 @@ Predicted selling price for Client 3&#39;s home: $942,666.67
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer: </strong>
-For Client 1's home: $391,000
-For Client 2's home: $189,000
-For Client 3's home: $942,000</p>
-<p>The statistics in Data Exploration Section:
-Minimum price: $105,000.00
-Maximum price: $1,024,800.00
-Mean price: $454,342.94
-Median price $438,900.00
-Standard deviation of prices: $165,171.13</p>
+<p><strong>Answer: </strong></p>
+<ul>
+<li><p>For Client 1's home: $391,000</p>
+</li>
+<li><p>For Client 2's home: $189,000</p>
+</li>
+<li><p>For Client 3's home: $942,000</p>
+</li>
+</ul>
+<p>The statistics in Data Exploration Section:</p>
+<ul>
+<li><p>Minimum price: $105,000.00</p>
+</li>
+<li><p>Maximum price: $1,024,800.00</p>
+</li>
+<li><p>Mean price: $454,342.94</p>
+</li>
+<li><p>Median price $438,900.00</p>
+</li>
+<li><p>Standard deviation of prices: $165,171.13</p>
+</li>
+</ul>
 <p>Reasonable: 
-The Clinet 2's house price is low, due to the high Neighborhood poverty level and high Student-teacher ratio of nearby schools. The client 3's house price is high, due to the Total number of rooms in home is very high and the Neighborhood poverty level is very low.</p>
+The Clinet 2's house price is low, due to the high Neighborhood poverty level and high Student-teacher ratio of nearby schools. The client 3's house price is high, due to the Total number of rooms in home is very high and the Neighborhood poverty level is very low. And for client 1, the house price is close to the mean and medium, which is associated with its medium room numbers, neighbourhood poverty and student-teacher ratio.</p>
 
 </div>
 </div>
